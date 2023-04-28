@@ -1,0 +1,123 @@
+.prjcts {
+    margin-bottom: 150px;
+}
+
+.prj-card {
+    margin-bottom: 90px;
+}
+
+.prj-pict-appart {
+    margin-bottom: 15px;
+}
+
+.prj-title {
+    width: 542px;
+    height: 37px;
+    margin-bottom: 17px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.prj-detail {
+    width: 127px;
+    height: 27px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #AD1818;
+}
+
+.btn-all-projects {
+    display: block;
+    width: 100%;
+    height: 153px;
+    border: 1px solid #ad1818;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #ad1818;
+    letter-spacing: -0.03em;
+    line-height: 153px;
+    text-decoration: none;
+    transition: 200ms linear;
+}
+
+.btn-all-projects:hover {
+    background-color: #AD1818;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 1199px) {
+    .prjcts {
+        margin-bottom: 103px;
+    }
+
+    .prj-card {
+        margin-bottom: 80px;
+    }
+
+    .prj-card:nth-last-child(1) {
+        margin-bottom: 102px;
+    }
+
+    .prj-pict-appart {
+        width: 100%;
+    }
+
+    .prj-title {
+        height: 37px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+        letter-spacing: -0.03em;
+        color: #121212;
+    }
+}
+
+@media (max-width: 767px) {
+    .prjcts {
+        margin-bottom: 144px;
+    }
+
+    .prj-card {
+        margin-bottom: 49px;
+    }
+
+    .prj-card:nth-last-child(1) {
+        margin-bottom: 60px;
+    }
+
+    .prj-pict-appart {
+        width: 100%;
+    }
+
+    .prj-title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 11px;
+    }
+
+    .prj-detail {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .btn-all-projects {
+        height: 100px;
+        font-size: 22px;
+        line-height: 30px;
+        padding-top: 37px;
+        padding-bottom: 37.14px;
+    }
+}

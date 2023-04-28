@@ -1,0 +1,39 @@
+.nav-container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 33px 0 70px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.logo-link {
+    width: 127px;
+    height: 21px;
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nav-link:nth-last-child(1) {
+    margin-right: 0;
+}
+
+.nav-link {
+    margin-right: 53px;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}

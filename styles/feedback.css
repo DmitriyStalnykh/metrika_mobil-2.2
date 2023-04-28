@@ -1,0 +1,80 @@
+.feedback-inner {
+    padding: 150px 0 157px;
+}
+
+.feedback-list-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 51px;
+}
+
+.feedback-card {
+    width: calc(50% - 25px);
+}
+
+.feedback-card:last-child:nth-child(2n+1) {
+    width: 861px;
+}
+
+.feedback-title {
+    margin-bottom: 14px;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+.feedback-description {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -0.03em;
+    text-align: left;
+}
+
+@media (max-width: 1199px) {
+    .feedback-inner {
+        padding: 117px 0 120px;
+    }
+
+    .feedback-card {
+        width: calc(50% - 10px);
+    }
+
+    .feedback-title {
+        margin-bottom: 25px;
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .feedback-description {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 767px) {
+    .feedback-inner {
+        padding: 80px 0 80px;
+    }
+    
+    .h2 feedback {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .feedback-card {
+        width: 100%;
+    }
+    
+    .feedback-title {
+        margin-bottom: 10px;
+        font-size: 25px;
+        line-height: 34px;
+    }
+
+    .feedback-description {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
